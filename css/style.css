@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.container{
+    height: 110vh;
+}
+
+.main{
+    margin: auto;
+    width: 39%;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.header{
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+    font-size: 32px;
+}
+
+h3{
+    font-size: 14px;
+}
+
+.main .header span{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.p1{
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 30px;
+}
+
+.start{
+    position: relative;
+    margin: 0 108px 0 70px;
+    top: 19px;
+    right: -8px;
+    flex: 1;
+    height: auto;
+    padding: 18px 29px 42px 29px;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 4px 10px 20px grey;
+    border-radius: 5px;
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.p2{
+    color: hsl(229, 6%, 66%);
+    font-size: 12px;
+    margin-top: 12px;
+    padding-right: 69px;
+}
+
+img{
+    float: right;
+}
+
+.middle{
+    flex: 1;
+    margin: 0 -120px 0 -81px;
+}
+
+.card-middle1{
+    position: relative;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    margin-bottom: 25px;
+    top: 19px;
+    left: 15px;
+    flex: 1;
+    padding: 17px 12px 103px 30px;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 4px 10px 20px grey;
+    border-radius: 5px;
+}
+
+.p2{
+    color: hsl(229, 6%, 66%);
+    font-size: 12px;
+    margin-top: 12px;
+    padding-right: 69px;
+}
+
+.card-middle2{
+    position: relative;
+    border-top:3px solid hsl(34, 97%, 64%);
+    top: 19px;
+    left: 15px;
+    flex: 1;
+    padding: 17px 1px 103px 30px;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 4px 10px 20px grey;
+    border-radius: 5px;
+}
+
+.end{
+    position: relative;
+    margin: 0 82px 0 136px;
+    top: 19px;
+    left: 8px;
+    flex: 1;
+    padding: 18px 29px 42px 29px;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 4px 10px 20px grey;
+    border-radius: 5px;
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
